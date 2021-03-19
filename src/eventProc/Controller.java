@@ -24,9 +24,11 @@ public class Controller implements Initializable {
 		
 	}
 	public void cancelProc() {
+		System.out.println("취소 버튼 선택");
 		cm.exit(root);
 	}
 	public void memberProc() {
+		System.out.println("회원가입 버튼 클릭");
 		mm.saveMemberStage();
 	}
 	@Override

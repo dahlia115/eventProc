@@ -1,6 +1,5 @@
 package eventProc.member;
 
-import eventProc.Controller;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
