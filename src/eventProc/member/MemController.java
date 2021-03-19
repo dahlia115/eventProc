@@ -15,6 +15,7 @@ public class MemController implements Initializable{
 	
 	public void setRoot(Parent root) {
 		this.root = root;
+		ms.setRoot(root);
 	}
 	public void cancelProc() {	//취소 버튼
 		System.out.println("취소 버튼 클릭");
